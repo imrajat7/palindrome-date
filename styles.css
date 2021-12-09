@@ -1,0 +1,36 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aliceblue;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 4% auto;
+}
+
+#show-btn {
+    background-color: orange;
+    border-radius: 4px;
+    font-size: medium;
+    padding: 0.3rem 1rem;
+    border: 1px solid darkgoldenrod;
+    margin-top: 1rem;
+}
+
+#show-btn:hover {
+    transform: scale(1.1);
+    transition-duration: 500ms;
+}
+
+#bday-input {
+    padding: 0.5rem 1rem;
+}
+
+#result {
+    font-family: sans-serif;
+    font-size: medium;
+}
